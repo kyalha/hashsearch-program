@@ -1,0 +1,27 @@
+
+testForLimitedSLCA :  
+Test with 2 keywords : 
+Carlson with preordersID : [1.2.9.11] 
+Amelia with preordersID : [1.2.9.10] 
+the node : Amelia and preordersID : [1.2.9.10]
+results of the test LimitedSLCA : [1.2.9]
+Average time of this execution for 100 times : 23 milliseconds.
+
+testForLimitedSLCA :  
+Test with 3 keywords : 
+Carlson with preordersID : [1.2.9.11] 
+Amelia with preordersID : [1.2.9.10] 
+Daniel with preordersID : [1.2.15.16] 
+the node : Amelia and preordersID : [1.2.9.10]
+results of the test LimitedSLCA : [1.2]
+Average time of this execution for 100 times : 53 milliseconds.
+
+testForLimitedSLCA :  
+Test with 4 keywords : 
+Carlson with preordersID : [1.2.9.11] 
+Amelia with preordersID : [1.2.9.10] 
+Daniel with preordersID : [1.2.15.16] 
+William with preordersID : [1.2.18.19] 
+the node : Amelia and preordersID : [1.2.9.10]
+results of the test LimitedSLCA : [1.2]
+Average time of this execution for 100 times : 93 milliseconds.

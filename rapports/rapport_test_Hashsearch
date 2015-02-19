@@ -1,0 +1,49 @@
+
+Test with 2 keywords with a frequency of 1 : Jurgen and Rafiul 
+frequency of the keyword : Jurgen is : 1
+frequency of the keyword : Rafiul is : 1
+Results of testForHashSearch, the SLCAs are : [1.2]
+Average time of this execution for 100 times : 23 milliseconds.
+
+Test with 3 keywords with a frequency of 1 : José and Blakeley and Extending 
+frequency of the keyword : José is : 1
+frequency of the keyword : Blakeley is : 1
+frequency of the keyword : Extending is : 1
+Results of testForHashSearch, the SLCAs are : [1.49]
+Average time of this execution for 100 times : 33 milliseconds.
+
+Test with 4 keywords with a frequency of 1 : Breitbart and Yuri and Management and Silberschatz 
+frequency of the keyword : Breitbart is : 1
+frequency of the keyword : Yuri is : 1
+frequency of the keyword : Management is : 1
+frequency of the keyword : Silberschatz is : 1
+Results of testForHashSearch, the SLCAs are : [1.77]
+Average time of this execution for 100 times : 48 milliseconds.
+
+Test with 2 keywords with a frequency of 10 : html and kim95 
+frequency of the keyword : html is : 10
+frequency of the keyword : kim95 is : 10
+Results of testForHashSearch, the SLCAs are : [1.2.42][1.49.68][1.77.102][1.111.134][1.141.164][1.171.201][1.208.228][1.236.261][1.268.287][1.294.328]
+Average time of this execution for 100 times : 213 milliseconds.
+
+Test with 3 keywords with a frequency of 10 : kim95 and collections and Modern 
+frequency of the keyword : kim95 is : 10
+frequency of the keyword : collections is : 10
+frequency of the keyword : Modern is : 10
+Results of testForHashSearch, the SLCAs are : [1.2][1.49][1.77][1.111][1.141][1.171][1.208][1.236][1.268][1.294]
+Average time of this execution for 100 times : 303 milliseconds.
+
+Test with 4 keywords with a frequency of 10 : 1995 and db and Modern and kim95 
+frequency of the keyword : 1995 is : 10
+frequency of the keyword : db is : 1
+frequency of the keyword : Modern is : 10
+frequency of the keyword : kim95 is : 10
+Results of testForHashSearch, the SLCAs are : [1.2][1.49][1.77][1.111][1.141][1.171][1.208][1.236][1.268][1.294]
+Average time of this execution for 100 times : 404 milliseconds.
+
+
+Test with 2 keywords with a frequency more than ten : Systems and Database  
+frequency of the keyword : Systems is : 13
+frequency of the keyword : Database is : 12
+Results of testForHashSearch, the SLCAs are : [1.2.38][1.49.64][1.77.97][1.111.130][1.141.151][1.141.160][1.171.197][1.208.224][1.236][1.236.257][1.268.283][1.294.318]
+Average time of this execution for 100 times : 244 milliseconds.

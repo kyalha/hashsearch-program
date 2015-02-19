@@ -1,0 +1,54 @@
+
+
+/*  rapportTestLimitedSLCA += ("\n");
+ rapportTestLimitedSLCA += ("Test with : \n");
+ rapportTestLimitedSLCA += ("Ahad with preordersID : [1.2.6.8]\n");
+ rapportTestLimitedSLCA += ("Rafiul with preordersID : [1.2.6.7]\n");
+ keywordsToTest.clear();
+ keywordsToTest.add("Ahad");
+ keywordsToTest.add("Rafiul");
+ rapportTestLimitedSLCA += ("the node : Rafiul" + " and preordersID : [1.2.6.7]\n");
+ String value2 = "[1.2.6.7]";
+ String lslca2 = limitedSLCA(1, keywordsToTest, value2);
+ rapportTestLimitedSLCA += ("results of the test LimitedSLCA : " + lslca2+ "\n");
+ duree = (System.currentTimeMillis() - start);
+ rapportTestLimitedSLCA += "time of this execution : " + duree+ " milliseconds." + "\n";
+
+ rapportTestLimitedSLCA += ("\n");
+ rapportTestLimitedSLCA += ("Test with : \n");
+ rapportTestLimitedSLCA += ("José with preordersID : [1.49.50.51]\n");
+ rapportTestLimitedSLCA += ("Rafiul with preordersID : [1.2.6.7]\n");
+ keywordsToTest.clear();
+ keywordsToTest.add("José");
+ keywordsToTest.add("Rafiul");
+ rapportTestLimitedSLCA += ("the node : Amelia" + " and preordersID : [1.2.9.10]\n");
+ String value3 = "[1.2.9.10]";
+ String lslca3 = limitedSLCA(1, keywordsToTest, value3);
+ rapportTestLimitedSLCA += ("results of the test LimitedSLCA : " + lslca3+ "\n");
+ duree = (System.currentTimeMillis() - start);
+ rapportTestLimitedSLCA += "time of this execution : " + duree+ " milliseconds." + "\n";
+ */
+
+/*
+ System.out.println("");
+ System.out.println("testForHashSearch : ");
+ List<String> keywordsToTest = new ArrayList();
+ System.out.println("Test with : Jurgen and Annevelink");
+ keywordsToTest.add("Jurgen");
+ keywordsToTest.add("Annevelink");
+ System.out.println("Results of testForHashSearch, the SLCAs are : " + hashSearch(keywordsToTest));
+
+ keywordsToTest.clear();
+ System.out.println("");
+ System.out.println("Test with : Rafiul and José");
+ keywordsToTest.add("Rafiul");
+ keywordsToTest.add("José");
+ System.out.println("Results of testForHashSearch, the SLCAs are : " + hashSearch(keywordsToTest));
+
+ keywordsToTest.clear();
+ System.out.println("");
+ System.out.println("Test with : Object and Database");
+ keywordsToTest.add("Object");
+ keywordsToTest.add("Database");
+ System.out.println("Results of testForHashSearch, the SLCAs are : " + hashSearch(keywordsToTest));
+ */

@@ -1,0 +1,49 @@
+
+Test with 2 keywords with a frequency of 1 : Jurgen and Rafiul 
+frequency of the keyword : Jurgen is : [1.1.1]
+frequency of the keyword : Rafiul is : [1.1.2]
+Results of testForHashSearch, the SLCAs are : pouet
+Average time of this execution for 100 times : 4 milliseconds.
+
+Test with 3 keywords with a frequency of 1 : José and Blakeley and Extending 
+frequency of the keyword : José is : [1.2.1]
+frequency of the keyword : Blakeley is : [1.2.1]
+frequency of the keyword : Extending is : [1.2.2]
+Results of testForHashSearch, the SLCAs are : [1.2],pouet
+Average time of this execution for 100 times : 7 milliseconds.
+
+Test with 4 keywords with a frequency of 1 : Breitbart and Yuri and Management and Silberschatz 
+frequency of the keyword : Breitbart is : [1.3.1]
+frequency of the keyword : Yuri is : [1.3.1]
+frequency of the keyword : Management is : [1.3.4]
+frequency of the keyword : Silberschatz is : [1.3.3]
+Results of testForHashSearch, the SLCAs are : [1.3],pouet
+Average time of this execution for 100 times : 7 milliseconds.
+
+Test with 2 keywords with a frequency of 10 : html and kim95 
+frequency of the keyword : html is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+frequency of the keyword : kim95 is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+Results of testForHashSearch, the SLCAs are : [1.1.11],[1.2.5],[1.3.7],[1.4.7],[1.5.8],[1],[1],[1.8.6],[1.9.6],[1.10.10],[1.1.11],pouet
+Average time of this execution for 100 times : 39 milliseconds.
+
+Test with 3 keywords with a frequency of 10 : kim95 and collections and Modern 
+frequency of the keyword : kim95 is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+frequency of the keyword : collections is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+frequency of the keyword : Modern is : [1.1.10][1.2.4][1.3.6][1.4.6][1.5.7][1.6.6][1.7.6][1.8.5][1.9.5][1.10.7]
+Results of testForHashSearch, the SLCAs are : [1.1],[1.2],[1.3],[1.4],[1.5],[1],[1],[1.8],[1.9],[1],pouet
+Average time of this execution for 100 times : 68 milliseconds.
+
+Test with 4 keywords with a frequency of 10 : 1995 and db and Modern and kim95 
+frequency of the keyword : 1995 is : [1.1.9][1.2.6][1.3.8][1.4.5][1.5.6][1.6.5][1.7.5][1.8.4][1.9.4][1.10.9]
+frequency of the keyword : db is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+frequency of the keyword : Modern is : [1.1.10][1.2.4][1.3.6][1.4.6][1.5.7][1.6.6][1.7.6][1.8.5][1.9.5][1.10.7]
+frequency of the keyword : kim95 is : [1.1.11][1.2.5][1.3.7][1.4.7][1.5.8][1.6.7][1.7.7][1.8.6][1.9.6][1.10.10]
+Results of testForHashSearch, the SLCAs are : [1.1],[1.2],[1.3],[1],[1.6],[1.7],[1.8],[1.10],pouet
+Average time of this execution for 100 times : 81 milliseconds.
+
+
+Test with 2 keywords with a frequency more than ten : Systems and Database  
+frequency of the keyword : Systems is : [1.1.10][1.2.4][1.3.4][1.3.6][1.4.3][1.4.6][1.5.4][1.5.7][1.6.6][1.7.6][1.8.5][1.9.5][1.10.7]
+frequency of the keyword : Database is : [1.1.10][1.2.4][1.3.6][1.4.6][1.5.4][1.5.7][1.6.6][1.7.6][1.8.2][1.8.5][1.9.5][1.10.7]
+Results of testForHashSearch, the SLCAs are : [1.1.10],[1.3],[1],[1],[1],[1],[1.8.5],[1.9.5],[1.10.7],pouet
+Average time of this execution for 100 times : 48 milliseconds.
